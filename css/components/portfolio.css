@@ -1,0 +1,42 @@
+.buttons-list__button {
+  font-weight: var(--medium-weight);
+  font-size: var(--medium-size);
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background-color: #f5f4fa;
+
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.buttons-list__button:hover,
+.buttons-list__button:focus {
+  color: var(--white-color);
+  background-color: var(--active-color);
+}
+
+.portfolio-list__item {
+  border: 1px solid #eee;
+}
+
+.portfolio-list__item-title {
+  font-weight: var(--title-weight);
+  font-size: var(--large-size);
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list__item-text {
+  font-weight: var(--primary-weight);
+  font-size: var(--medium-size);
+  line-height: 1.88;
+
+  letter-spacing: 0.03em;
+
+  color: var(--second-color);
+}

@@ -1,0 +1,6 @@
+@import "./normilize.css";
+@import "./variables.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/index.css";
+@import "./components/portfolio.css";

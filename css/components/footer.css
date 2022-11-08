@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--dark-background);
+}
+
+.footer > .logo {
+  color: var(--white-color);
+}
+
+.address__item-link {
+  font-style: normal;
+  font-weight: var(--primary-weight);
+  font-size: var(--primary-size);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: inherit;
+}
+
+.address__list {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address__item:first-child {
+  color: var(--white-color);
+}

@@ -1,0 +1,49 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  font-family: var(--second-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  color: #000;
+}
+
+.logo__item {
+  color: var(--active-color);
+}
+
+.nav__item-link {
+  font-weight: var(--medium-weight);
+  font-size: var(--primary-size);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color);
+}
+
+.nav__item-link:hover,
+.nav__item-link:focus {
+  color: var(--active-color);
+}
+
+.address-list__link {
+  font-weight: var(--medium-weight);
+  font-size: var(--primary-size);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--second-color);
+}
+
+.address-list__link:hover,
+.address-list__link:focus {
+  color: var(--active-color);
+}
+
+.current {
+  color: var(--active-color);
+}

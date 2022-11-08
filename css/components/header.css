@@ -2,6 +2,10 @@
   border-bottom: 1px solid #ececec;
 }
 
+.header .container {
+  display: flex;
+}
+
 .logo {
   font-family: var(--second-font-family);
   font-weight: 700;
@@ -10,10 +14,26 @@
   letter-spacing: 0.03em;
 
   color: #000;
+
+  margin-right: 93px;
 }
 
 .logo__item {
   color: var(--active-color);
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  color: var(--main-color);
+
+  margin-right: 50px;
 }
 
 .nav__item-link {
@@ -22,12 +42,16 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--main-color);
+  color: currentColor;
 }
 
 .nav__item-link:hover,
 .nav__item-link:focus {
   color: var(--active-color);
+}
+
+.header__address-list {
+  display: flex;
 }
 
 .address-list__link {

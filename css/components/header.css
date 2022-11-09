@@ -1,9 +1,15 @@
 .header {
+  display: flex;
+  align-items: center;
+
+  min-height: 80px;
   border-bottom: 1px solid #ececec;
 }
 
 .header .container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -24,13 +30,14 @@
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .nav__list {
   display: flex;
 }
 
-.nav__item {
+.nav__item:not(:last-child) {
   color: var(--main-color);
 
   margin-right: 50px;
@@ -52,6 +59,10 @@
 
 .header__address-list {
   display: flex;
+}
+
+.address-list__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .address-list__link {

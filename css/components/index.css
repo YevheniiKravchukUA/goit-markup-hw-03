@@ -5,24 +5,39 @@ body {
 }
 
 .hero {
+  max-width: 1600px;
+  min-height: 600px;
+
   background-color: var(--dark-background);
+
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero__title {
+  width: 696px;
+
   font-weight: var(--ultra-weight);
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
 
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   text-transform: uppercase;
+  text-align: center;
 
   color: var(--white-color);
+
+  margin-bottom: 30px;
 }
 
 .hero__button {
+  display: block;
   height: 50px;
   width: 216px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-family: 'Roboto';
   font-weight: var(--title-weight);
@@ -39,7 +54,17 @@ body {
 
 .hero__button:hover,
 .hero__button:focus {
+  background-color: #188ce8;
   cursor: pointer;
+}
+
+.summary__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary__item {
+  width: 270px;
 }
 
 .summary__item-title {
@@ -58,22 +83,59 @@ body {
   color: var(--second-color);
 }
 
+.section.works {
+  padding-top: 0px;
+}
+
 .section-title {
   font-weight: var(--title-weight);
   font-size: var(--big-size);
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+}
+
+.works__list {
+  display: flex;
+}
+
+.works__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team {
   background-color: var(--light-background);
 }
 
+.team__list {
+  display: flex;
+}
+
 .team__item {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 368px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.item__footer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--white-color);
 }
 
 .team__item-title {
@@ -82,6 +144,8 @@ body {
   line-height: 1.19;
 
   text-align: center;
+
+  margin-bottom: 10px;
 }
 
 .team__item-text {

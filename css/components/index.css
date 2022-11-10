@@ -100,6 +100,11 @@ body {
   display: flex;
 }
 
+.works__item-image {
+  width: 370px;
+  height: auto;
+}
+
 .works__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -125,6 +130,11 @@ body {
 
 .team__item:not(:last-child) {
   margin-right: 30px;
+}
+
+.team__item-picture {
+  width: 270px;
+  height: auto;
 }
 
 .item__footer {

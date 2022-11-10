@@ -45,6 +45,11 @@
   min-height: 404px;
 }
 
+.portfolio-list__item-image {
+  width: 370px;
+  height: auto;
+}
+
 .portfolio-list__item .item__footer {
   align-items: flex-start;
   border: 1px solid #eee;

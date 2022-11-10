@@ -37,10 +37,6 @@
   display: flex;
 }
 
-.nav__item {
-  height: 100%;
-}
-
 .nav__item:not(:last-child) {
   color: var(--main-color);
 

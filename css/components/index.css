@@ -72,6 +72,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .summary__item-text {
@@ -123,9 +125,10 @@ body {
 
   min-height: 368px;
 
+  border-radius: 0px 0px 4px 4px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team__item:not(:last-child) {
@@ -138,13 +141,8 @@ body {
 }
 
 .item__footer {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  align-items: center;
-  justify-content: center;
-
-  background-color: var(--white-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team__item-title {

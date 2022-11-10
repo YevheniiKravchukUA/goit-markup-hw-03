@@ -1,3 +1,14 @@
+.buttons-list {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 50px;
+}
+
+.buttons-list__item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .buttons-list__button {
   font-weight: var(--medium-weight);
   font-size: var(--medium-size);
@@ -19,8 +30,27 @@
   background-color: var(--active-color);
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
 .portfolio-list__item {
+  display: flex;
+  flex-direction: column;
+
+  width: calc((100% - 60px) / 3);
+  min-height: 404px;
+}
+
+.portfolio-list__item .item__footer {
+  align-items: flex-start;
   border: 1px solid #eee;
+  border-top: none;
+
+  padding-left: 24px;
 }
 
 .portfolio-list__item-title {
